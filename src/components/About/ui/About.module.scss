@@ -1,0 +1,44 @@
+.about {
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+
+    &__image {
+        margin-right: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            object-fit: cover;
+            object-position: center;
+            border-radius: 20px;
+            width: 400px;
+            height: 350px;
+        }
+    }
+
+    &__content {
+    }
+}
+
+.content {
+
+    &__link {
+        display: block;
+        color: #1678f4;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    &__title {
+        font-size: 26px;
+        line-height: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 18px;
+    }
+}

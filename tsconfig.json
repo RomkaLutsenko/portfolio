@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    // Скомпилируется в es5(для поддержки)
+    "target": "es5",
+    "jsx": "react-jsx",
+    // Компилятор обработает TS и JS файлы
+    "allowJs": true,
+    "moduleResolution": "node",
+    // Человеческий импорт
+    "esModuleInterop": true,
+    // Импорты без звёздочки
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+    }
+  }
+}

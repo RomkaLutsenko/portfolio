@@ -1,0 +1,84 @@
+.projects {
+    margin-top: 100px;
+    padding-top: 50px;
+
+    &__title {
+        display: block;
+        color: #1678f4;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    &__subtitle {
+        font-size: 26px;
+        line-height: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+    &__content {
+        padding: 20px 40px;
+    }
+}
+
+.content {
+
+    &__cart {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 0;
+        justify-content: space-between;
+        align-items: center;
+
+        &_rev {
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 40px 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__image {
+        img {
+            object-fit: cover;
+            object-position: center;
+            width: 500px;
+            height: 330px;
+            border-radius: 20px;
+            max-width: 100%;
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 26px;
+        font-weight: 800;
+        white-space: nowrap;
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    &__stack {
+        font-size: 14px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+
+    &__links {
+
+        a {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}

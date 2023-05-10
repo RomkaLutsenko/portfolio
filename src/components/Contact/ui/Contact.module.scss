@@ -1,0 +1,40 @@
+.contact {
+
+
+    &__title {
+        display: block;
+        color: #1678f4;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    &__subtitle {
+        font-size: 26px;
+        line-height: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+
+    &__links {
+        display: flex;
+        padding: 40px;
+    }
+}
+
+.links {
+
+    &__item {
+        display: flex;
+        margin-right: 50px;
+    }
+
+    &__icon {
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    &__title {
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+}

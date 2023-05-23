@@ -3,6 +3,7 @@ import cls from './Projects.module.scss'
 import diplom from '../../../assets/diplom.jpg'
 import borsch from '../../../assets/borsch.jpg'
 import blog from '../../../assets/blog.jpg'
+import postService from '../../../assets/blog-post_service.jpg'
 
 export const Projects = () => {
     return (
@@ -76,7 +77,7 @@ export const Projects = () => {
                     </div>
                     <div className={cls.content__cart_rev}>
                         <div className={cls.content__image}>
-                            <img src={borsch} alt="project photo"/>
+                            <img src={postService} alt="project photo"/>
                         </div>
                         <div className={cls.content__body}>
                             <div className={cls.content__title}>Сервис создания постов в блоге</div>

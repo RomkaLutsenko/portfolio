@@ -8,6 +8,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @media(max-width: 713px) {
+            margin-right: 0;
+        }
 
         img {
             object-fit: cover;
@@ -15,10 +18,15 @@
             border-radius: 20px;
             width: 400px;
             height: 350px;
+            max-width: 100%;
         }
     }
 
     &__content {
+        padding-top: 35px;
+    }
+    @media(max-width: 713px) {
+        flex-direction: column;
     }
 }
 

@@ -12,7 +12,7 @@ import REDUX from  '../../../assets/redux.svg'
 import WEBPACK from  '../../../assets/webpack.svg'
 
 
-export const Home = () => {
+export const wHome = () => {
     return (
         <div id="block-home" className="container">
             <div className={cls.home}>

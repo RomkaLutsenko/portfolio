@@ -7,6 +7,10 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 100px;
+        @media(max-width: 713px) {
+            flex-direction: column-reverse;
+            justify-self: center;
+        }
     }
 
     &__stack {
@@ -20,8 +24,10 @@
 }
 
 .body {
+    display: flex;
+
     &__text {
-        width: 600px;
+        max-width: 600px;
         padding-right: 50px;
     }
 
@@ -46,7 +52,6 @@
     }
 
     &__image {
-
         img {
             object-fit: cover;
             object-position: center;

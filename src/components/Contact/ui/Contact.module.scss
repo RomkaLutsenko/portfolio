@@ -1,6 +1,5 @@
 .contact {
 
-
     &__title {
         display: block;
         color: #1678f4;
@@ -17,12 +16,16 @@
     &__links {
         display: flex;
         padding: 40px;
+        @media(max-width: 713px) {
+            flex-direction: column;
+        }
     }
 }
 
 .links {
 
     &__item {
+        margin-bottom: 20px;
         display: flex;
         margin-right: 50px;
     }

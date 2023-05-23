@@ -11,7 +11,7 @@ export const Header = () => {
     return (
         <header className={cls.header}>
             <div className={cls.header__row}>
-                <a className={cls.header__name} href="#block-home">Roman.dev</a>
+                <a className={cls.header__name} href="#block-home">Roman.</a>
                 <nav className={cls.header__menu}>
                     <div onClick={burgerToggle} className={`${cls.menu__icon} ${active ? cls.menu__icon_active : ''}`}>
                         <span></span>

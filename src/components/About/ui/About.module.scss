@@ -2,14 +2,14 @@
     margin-top: 100px;
     padding-top: 50px;
     display: flex;
+    @media(max-width: 713px) {
+        align-items: center;
+    }
 
     &__image {
         margin-right: 65px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         @media(max-width: 713px) {
-            margin-right: 0;
+            margin: 0 0 20px 0;
         }
 
         img {
@@ -23,7 +23,9 @@
     }
 
     &__content {
-        padding-top: 35px;
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
     }
     @media(max-width: 713px) {
         flex-direction: column;
@@ -31,9 +33,7 @@
 }
 
 .content {
-
     &__link {
-        display: block;
         color: #1678f4;
         font-weight: 800;
         margin-bottom: 15px;

@@ -9,7 +9,8 @@
         margin-bottom: 100px;
         @media(max-width: 713px) {
             flex-direction: column-reverse;
-            justify-self: center;
+            align-items: center;
+            text-align: center;
         }
     }
 
